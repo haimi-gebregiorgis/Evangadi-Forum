@@ -42,6 +42,6 @@ async function start() {
 }
 start();
 
-app.get("/test", (req, res) => {
+app.get("/api", (req, res) => {
   res.send("backend deployed successfully");
 });
